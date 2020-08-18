@@ -30,6 +30,7 @@ def register():
 def logout():
     return render_template("login.html")
 
+
 @app.route('/ordered/')  # для подтверждения отправки
 def ordered():
     return render_template("ordered.html")
